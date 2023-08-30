@@ -15,6 +15,7 @@ npm install -g @angular/cli
 
 # Instalar o python3-dev e python3-venv
 sudo apt-get update
+sudo apt-get install git net-tools openssh-server
 sudo apt-get install -y python3-dev python3-venv
 
 # Baixar e instalar o Go (Golang)
