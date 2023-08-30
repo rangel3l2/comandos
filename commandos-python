@@ -1,0 +1,2 @@
+﻿sudo update-alternatives --config python → alternar version do python
+pip -till > requirements.txt
