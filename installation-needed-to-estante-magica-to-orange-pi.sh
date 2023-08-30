@@ -1,6 +1,12 @@
 #!/bin/bash
 #instalation -> chmod +x nome-file.sh
                #run -> ./nome-file.sh
+# Alterar as configurações do teclado
+#sudo vi /etc/default/keyboard  # Use o editor que você preferir
+ sudo nano /etc/default/keyboard  # Use nano se preferir
+
+# Edite a linha XKBLAYOUT para o layout desejado
+sudo sed -i 's/XKBLAYOUT=".*"/XKBLAYOUT="br"/' /etc/default/keyboard
 # Instalar NVM (Node Version Manager)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 
